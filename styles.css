@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+header {
+    color: aliceblue;
+    /* padding espacio interno del header */
+    padding: 20px; 
+
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border: 3px solid violet;
+    margin: 10px 10px 0 10px; /* arriba, a la derecha, abajo, izquierda, borde de las etiquetas html*/  
+    /* control k c  y control k u para descomentar */
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+#sobre-mi {
+    text-transform: uppercase;
+}
+
+#contacto {
+    text-decoration-line: underline;
+}
+
+.estilos-generales {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tamano-texto {
+    font-size: 30px;
+}
